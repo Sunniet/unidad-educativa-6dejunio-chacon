@@ -146,6 +146,10 @@ form .input-box span.details{
  .container1{
   max-width: 100%;
 }
+   .container1 .title::before{
+  width: 350px;
+}
+   
 form .user-details .input-box{
     margin-bottom: 15px;
     width: 100%;
@@ -165,5 +169,8 @@ form .user-details .input-box{
   .container1 .content .category{
     flex-direction: column;
   }
+    .container1 .title::before{
+  width: 350px;
+}
 }
 
