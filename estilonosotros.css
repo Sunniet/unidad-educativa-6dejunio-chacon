@@ -10,8 +10,8 @@
 
 .container1 {
   display: grid;
-  height: 200vh;
-  max-height: auto;
+  height: 240vh;
+  max-height: 2000px;
   grid-template-columns: 1fr  1fr 1fr;
   grid-template-rows: 0.2fr 1.2fr 0.8fr;
   grid-template-areas:
