@@ -1,0 +1,67 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#features{
+  padding-top:25px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#features .fea-base {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	column-gap: 1rem;
+	margin-top: 50px;
+}
+
+#features .fea-box{
+	background-color: #ffff;
+	text-align: start;
+	padding-top:20px;
+    padding-left: 10px;
+    padding-bottom:50px;
+    padding-right: 0px;
+    box-shadow: -15px 17px 24px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: -15px 17px 24px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 17px 24px -9px rgba(0,0,0,0.75);
+}
+
+#features .fea-box i{
+	font-size: 2.3rem;
+	color: rgb(44, 44, 80);
+}
+
+#feature .fea-box h3{
+    font-size: 1.2rem;
+	font-weight: 600;
+	color: rgb(46, 46, 59);
+	padding-top:13px;
+    padding-left: 0px;
+    padding-bottom: 7px;
+    padding-right: 0px;
+}
+
+#feature .fea-box p{
+    font-size: 1rem;
+	font-weight: 400;
+	color: rgb(70, 70, 87);
+}
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #000F6A;
+    border-radius: 6px;
+    border: 0px solid #0016b0;
+  }
+  .boton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
