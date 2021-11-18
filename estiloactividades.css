@@ -95,6 +95,9 @@
   grid-template-columns: 1.5fr 1fr;
   padding: 10px;
 }
+  .titulo{
+  font-size:100%;
+}
 .mivideo{
   height: 20em;
 }
@@ -109,6 +112,9 @@ iframe{
 @media (max-width: 768px){
   .container1{
   grid-template-columns: 1fr;
+}
+  .titulo{
+  font-size:100%;
 }
 .mivideo{
   height: 18em;
