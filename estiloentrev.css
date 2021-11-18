@@ -147,7 +147,7 @@ form .input-box span.details{
   max-width: 100%;
 }
    .container1 .title::before{
-  width: 350px;
+  width: 310px;
 }
    
 form .user-details .input-box{
@@ -170,7 +170,7 @@ form .user-details .input-box{
     flex-direction: column;
   }
     .container1 .title::before{
-  width: 350px;
+  width: 310px;
 }
 }
 
