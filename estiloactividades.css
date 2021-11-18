@@ -98,6 +98,13 @@
 .mivideo{
   height: 20em;
 }
+  .mivideo1{
+  width: 350px;
+}
+iframe{
+  width: 370px;
+  height: 200px;
+}
 
 @media (max-width: 768px){
   .container1{
@@ -105,4 +112,11 @@
 }
 .mivideo{
   height: 18em;
+}
+  .mivideo1{
+  width: 350px;
+}
+iframe{
+  width: 370px;
+  height: 200px;
 }
